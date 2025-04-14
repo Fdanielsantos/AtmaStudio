@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/09/2023, 14:47:20
+    Author     : ana maria
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+    background-color: #202020;
+
+}
+
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: #202020;
+    padding: 10%px 0 20% 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir>i {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.ativo {
+    background-color: #868686;
+}
+
+ul li.item-menu:hover {
+    background: #868686;
+}
+
+ul li.item-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 4%;
+    display: flex;
+    margin-bottom: 60px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 50px;
+    transition: 1s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 30px;
+    opacity: 1;
+    font-size: 20px;
+
+}
+
+ul li.item-menu a .icon>i {
+    font-size: 10%;
+    margin-left: 10px;
+}
+.container {
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 20%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+}
+
+.logo1 {
+    width: 70px;
+    height: 70px;
+    margin-left: 90px;
+}
