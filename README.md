@@ -1,5 +1,9 @@
 # AtmaStudio
-Sistema Feito Utilizando Java, JSP, Bootstrap, MySQL, e Arquitetura MVC
+O sistema foi implementado utilizando a linguagem de programação Java, com JSP (JavaServer Pages) para o desenvolvimento das páginas dinâmicas, Bootstrap para a criação de uma interface responsiva e moderna, e MySQL como sistema de gerenciamento de banco de dados. A estrutura do projeto segue a arquitetura MVC (Model-View-Controller), promovendo a separação de responsabilidades e facilitando a manutenção e escalabilidade da aplicação.
+
+**Sobre este projeto:**
+Este sistema foi desenvolvido para atender às necessidades de um salão de beleza que apresentava uma alta demanda de serviços, mas realizava seus agendamentos, bem como a organização de funcionários, serviços e demais processos de forma manual. Diante desse cenário, propôs-se a criação de um sistema informatizado com o objetivo de otimizar o gerenciamento do salão, proporcionando maior eficiência, controle e organização das atividades diárias.
+
 
 Screenshots de todas as telas do sistemas:
 ![image](https://github.com/user-attachments/assets/4df2c0cc-e53d-4135-9a93-e3d8a524633f)
@@ -20,6 +24,4 @@ Screenshots de todas as telas do sistemas:
 ![image](https://github.com/user-attachments/assets/bb39cdbe-91f3-40b7-b1aa-1e2d7d57a501)
 ![image](https://github.com/user-attachments/assets/33422b69-a13e-4ee0-b202-3d0cbc5d606f)
 
-**Sobre este projeto:**
-Este sistema foi desenvolvido para atender às necessidades de um salão de beleza que apresentava uma alta demanda de serviços, mas realizava seus agendamentos, bem como a organização de funcionários, serviços e demais processos de forma manual. Diante desse cenário, propôs-se a criação de um sistema informatizado com o objetivo de otimizar o gerenciamento do salão, proporcionando maior eficiência, controle e organização das atividades diárias.
 
